@@ -85,6 +85,6 @@ def chat():
 
 # --- Jalankan Server Flask ---
 if __name__ == '__main__':
-    # Server akan berjalan di http://127.0.0.1:5228/
-    app.run(port=5228, debug=True)
+    app.run(debug=True)
+
 
